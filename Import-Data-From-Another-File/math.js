@@ -1,26 +1,75 @@
-// This file export the data from this file to another file
-
-// // Method 1 to export the data from one file to another file
-
-// const PI = 3.14;
-// const g = 9.8;
-
-// const sum = (a, b) => a + b;
-// const mul = (a, b) => a * b;
-
-// module.exports = {
-//     PI:PI,
-//     g:g,
-//     sum:sum,
-//     mul:mul
-// };
+// This file export the data from this file to another file to index.html file
 
 
-// Method 2 to export the data from one file to another file
+// Method 1
 
-export const PI = 3.14;
-export const g = 9.8;
+    // Method (i)
 
-export const sum = (a, b) => a + b;
-export const mul = (a, b) => a * b;
+            const PI = 3.14;
+            const g = 9.8;
 
+            function add(a, b) {
+                return a + b;
+            }
+
+            function sub(a, b) {
+                return a - b;
+            }
+
+            function mul(a, b) {
+                return a * b;
+            }
+
+            module.exports = {
+                PI: PI,
+                g: g,
+                add: add,
+                sub: sub,
+                mul: mul,
+            }
+
+
+
+    // Method (ii)
+
+            // export const PI = 3.14;
+            // export const g = 9.8;
+
+            // exports.add = (a, b) => a + b;
+            // exports.sub = (a, b) => a - b;
+            // exports.mul = (a, b) => a * b;
+
+
+
+
+
+
+
+
+
+// Method 3
+
+    // Method (i)
+
+            // const PI = 3.14;
+            // const g = 9.8;
+
+            // const sum = (a, b) => a + b;
+            // const mul = (a, b) => a * b;
+
+            // module.exports = {
+            //     PI:PI,
+            //     g:g,
+            //     sum:sum,
+            //     mul:mul
+            // };
+
+
+    // Method (ii) 
+
+            // export const PI = 3.14;
+            // export const g = 9.8;
+
+            // export const sum = (a, b) => a + b;
+            // export const sub = (a, b) => a + b;
+            // export const mul = (a, b) => a * b;
